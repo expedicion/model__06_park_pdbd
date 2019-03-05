@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A371CA4-8EDC-1442-6139-03D2665420E6" name="GATUNEK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:10:25 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<engineerTo>
+<item key="D5665FE7-FB31-43CB-ADB2-0AA83B4CB4E8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="92744B83-CA77-0E4C-C980-21BEFBA815BD">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:10:33 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<engineerTo>
+<item key="D5665FE7-FB31-43CB-ADB2-0AA83B4CB4E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GATUNEK" id="52980808-2108-5924-46F6-8B322D78972A">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:12:41 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<engineerTo>
+<item key="D5665FE7-FB31-43CB-ADB2-0AA83B4CB4E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ODMIANA" id="67019BCE-E03D-1662-B090-D9EB41CF54CC">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:12:54 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<engineerTo>
+<item key="D5665FE7-FB31-43CB-ADB2-0AA83B4CB4E8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GRUPA" id="78231069-DC41-FC07-3540-A4B6C59037FD">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:10:40 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<engineerTo>
+<item key="D5665FE7-FB31-43CB-ADB2-0AA83B4CB4E8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<listOfValues>
+<valueDef value="BYLINA" description=""/>
+<valueDef value="DRZEWO" description=""/>
+<valueDef value="INNE" description=""/>
+<valueDef value="KRZEW" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="639E364A-1738-6FD3-C8C5-91733238413F" name="GATUNEK PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:10:38 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<engineerTo>
+<item key="D5665FE7-FB31-43CB-ADB2-0AA83B4CB4E8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92744B83-CA77-0E4C-C980-21BEFBA815BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

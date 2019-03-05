@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="41AB646B-B7CE-C4E8-69F0-297D22E2BFBE" name="WYSTEPOWANIE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="828C1D99-52C1-82E1-DD5C-0C1D804BD673" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="885EA72A-EB18-5A7B-81DF-66846B9DC5D4" name="GATUNEK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="828C1D99-52C1-82E1-DD5C-0C1D804BD673" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="E80C4E00-6A55-A340-F5E6-9C6B2FB4F008" name="OBSZAR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="828C1D99-52C1-82E1-DD5C-0C1D804BD673" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="4B9D34DD-341D-9502-31B0-01BEA946C940" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="828C1D99-52C1-82E1-DD5C-0C1D804BD673" propertySourceId="E80C4E00-6A55-A340-F5E6-9C6B2FB4F008" propertyTargetId="41AB646B-B7CE-C4E8-69F0-297D22E2BFBE"/>
+   <object objectType="Relation" objectID="762070E6-F085-58EF-931D-AFC2AF15BE76" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="828C1D99-52C1-82E1-DD5C-0C1D804BD673" propertySourceId="885EA72A-EB18-5A7B-81DF-66846B9DC5D4" propertyTargetId="41AB646B-B7CE-C4E8-69F0-297D22E2BFBE"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

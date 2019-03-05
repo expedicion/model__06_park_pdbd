@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="D6ABD157-3AA8-FF2A-FBA1-5BDDCD8EF6D3" name="Arc_1">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:03:28 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_4 (bardzo zlozone)</ownerDesignName>
+<engineerTo>
+<item key="7C9FC62E-866E-D2A0-A4BF-0713876020BB" value="true"/>
+</engineerTo>
+<entity>72E2D91F-CE03-DA4D-F339-E1A0CEF4DC52</entity>
+<relations>
+<relationID>396259A6-4A3E-811C-B2F9-D3DCB0085EFF</relationID>
+<relationID>51F3D9B9-C79D-5BDB-6413-BDA652AF69AC</relationID>
+</relations>
+</Arc>

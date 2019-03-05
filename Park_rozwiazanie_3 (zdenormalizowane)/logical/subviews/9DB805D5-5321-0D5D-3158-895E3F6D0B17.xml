@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="9DB805D5-5321-0D5D-3158-895E3F6D0B17">
+<createdBy>Użytkownik WEiTI</createdBy>
+<modifiedBy>Użytkownik WEiTI</modifiedBy>
+<createdTime>2018-11-24 09:53:04 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="0922CC14-9DBD-87F7-F5D5-29C2D6FA467D" otype="Note" vid="19677174-AC3B-BB09-4F62-57746A6DAC7A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="393" y="78" width="244" height="160"/>
+<comment>ROZWIAZANIE ZDENORMALIZOWANE&lt;br/&gt;&lt;br/&gt;WYSTEPUJA POWTORZENIA ALE ZAPYTANIA SA SZYBKIE&lt;br/&gt;</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0BD3B207-742E-4B3E-468F-9741113208FA" otype="Entity" vid="CDF57259-311B-6BAE-95F4-37581C8A2804">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="81" y="323" width="143" height="86"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="9C69A3A9-2511-120B-07FE-53D5225FC3BC" otype="Entity" vid="6081102F-83CC-9B29-BB9D-55DF1A40A330">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="88" y="46" width="133" height="77"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="BB16213B-B97E-FA06-4F97-BDDF333CAF96" otype="Entity" vid="D6853ECA-215C-0BFE-2BE1-43E4A81C5FBD">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="315" y="327" width="108" height="78"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C0D3935E-3CD4-ACBD-E145-8BCDB862C221" otype="Entity" vid="38F98417-33D1-3E53-B5CE-E72BD8A17DF1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="80" y="462" width="146" height="101"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DE7FD893-9C41-B2A6-6FC0-94AE9CC36186" otype="Entity" vid="3E117B8E-6F1A-DCF3-47CF-8046AE2DBCD8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="87" y="173" width="130" height="97"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="2BA9A8FD-C1D8-7DED-473A-00035739B867" otype="Relation" vid_source="6081102F-83CC-9B29-BB9D-55DF1A40A330" vid_target="3E117B8E-6F1A-DCF3-47CF-8046AE2DBCD8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="152" y="123"/>
+<point x="152" y="173"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5818E0B7-41E4-5CC9-8DCA-1D11FE112137" otype="Relation" vid_source="CDF57259-311B-6BAE-95F4-37581C8A2804" vid_target="3E117B8E-6F1A-DCF3-47CF-8046AE2DBCD8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="149" y="323"/>
+<point x="148" y="270"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8FEACC6A-2D4F-7277-C0EA-51D01A5CD3CC" otype="Relation" vid_source="D6853ECA-215C-0BFE-2BE1-43E4A81C5FBD" vid_target="CDF57259-311B-6BAE-95F4-37581C8A2804">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="315" y="366"/>
+<point x="224" y="366"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F635BEA5-0C06-A380-051C-FF7424DA0285" otype="Relation" vid_source="38F98417-33D1-3E53-B5CE-E72BD8A17DF1" vid_target="CDF57259-311B-6BAE-95F4-37581C8A2804">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="162" y="462"/>
+<point x="162" y="409"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

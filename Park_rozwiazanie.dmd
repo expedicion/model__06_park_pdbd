@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Park_rozwiazanie" id="45A8CB48-103A-F63A-7C33-9057D13108BC" version="3.5">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 09:19:36 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>45A8CB48-103A-F63A-7C33-9057D13108BC</designId>
+</OSDM_Design>

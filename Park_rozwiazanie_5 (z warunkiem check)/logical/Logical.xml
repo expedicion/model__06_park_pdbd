@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="86574F20-E4B4-85C4-7689-D087E0550648" mainViewID="F18D04B3-5A36-B9A7-AA64-9BAEBF19E534">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:09:43 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

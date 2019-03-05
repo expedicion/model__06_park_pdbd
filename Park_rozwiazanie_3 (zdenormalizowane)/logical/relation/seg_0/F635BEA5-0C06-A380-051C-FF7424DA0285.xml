@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="F635BEA5-0C06-A380-051C-FF7424DA0285">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 09:54:18 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_3 (zdenormalizowane)</ownerDesignName>
+<engineerTo>
+<item key="790DA577-D7BA-235F-9BEB-1B6A08F2D88B" value="true"/>
+</engineerTo>
+<sourcePk>CBC4D2FA-C17D-48EC-A344-031CF63BDE1A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C0D3935E-3CD4-ACBD-E145-8BCDB862C221</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0BD3B207-742E-4B3E-468F-9741113208FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

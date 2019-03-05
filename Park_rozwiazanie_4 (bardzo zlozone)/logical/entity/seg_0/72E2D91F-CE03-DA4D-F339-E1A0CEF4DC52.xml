@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72E2D91F-CE03-DA4D-F339-E1A0CEF4DC52" name="WYSTEPOWANIE">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:01:28 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_4 (bardzo zlozone)</ownerDesignName>
+<engineerTo>
+<item key="7C9FC62E-866E-D2A0-A4BF-0713876020BB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="19DA9687-493A-B5E9-0E71-92CFE3167E07">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:02:47 UTC</createdTime>
+<generatorID>AF868565-D340-834B-5F19-320FB366E5B4</generatorID>
+<ownerDesignName>Park_rozwiazanie_4 (bardzo zlozone)</ownerDesignName>
+<engineerTo>
+<item key="7C9FC62E-866E-D2A0-A4BF-0713876020BB" value="true"/>
+</engineerTo>
+<referedAttribute>154A1EA7-97BF-4458-9A8B-3F0215F06504</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LICZBA" id="15C625E9-99BA-99CC-198C-C233CC8F157E">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:03:36 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_4 (bardzo zlozone)</ownerDesignName>
+<engineerTo>
+<item key="7C9FC62E-866E-D2A0-A4BF-0713876020BB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="A2D0D93D-2D8E-CD0A-1E70-192C7EE255B7">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:04:50 UTC</createdTime>
+<generatorID>396259A6-4A3E-811C-B2F9-D3DCB0085EFF</generatorID>
+<ownerDesignName>Park_rozwiazanie_4 (bardzo zlozone)</ownerDesignName>
+<engineerTo>
+<item key="7C9FC62E-866E-D2A0-A4BF-0713876020BB" value="true"/>
+</engineerTo>
+<referedAttribute>CC0CB69F-194F-9D40-710F-E18292B2390B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="2CC105C2-81E4-6455-6CBF-2BAB1C86721F">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:04:50 UTC</createdTime>
+<generatorID>51F3D9B9-C79D-5BDB-6413-BDA652AF69AC</generatorID>
+<ownerDesignName>Park_rozwiazanie_4 (bardzo zlozone)</ownerDesignName>
+<engineerTo>
+<item key="7C9FC62E-866E-D2A0-A4BF-0713876020BB" value="true"/>
+</engineerTo>
+<referedAttribute>B413AC9E-5B94-608B-B39A-BB0B6188E4A4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_1" id="76E9E091-9C37-22F5-1032-B14934BA6253">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:06:57 UTC</createdTime>
+<generatorID>396259A6-4A3E-811C-B2F9-D3DCB0085EFF</generatorID>
+<ownerDesignName>Park_rozwiazanie_4 (bardzo zlozone)</ownerDesignName>
+<engineerTo>
+<item key="7C9FC62E-866E-D2A0-A4BF-0713876020BB" value="true"/>
+</engineerTo>
+<referedAttribute>FF42947E-7783-BCBF-D24C-A443D65D1A90</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B1C0979B-622C-967D-82CB-4250DE00014C" name="WYSTEPOWANIE PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:02:47 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_4 (bardzo zlozone)</ownerDesignName>
+<engineerTo>
+<item key="7C9FC62E-866E-D2A0-A4BF-0713876020BB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19DA9687-493A-B5E9-0E71-92CFE3167E07</attributeRef>
+<attributeRef>2CC105C2-81E4-6455-6CBF-2BAB1C86721F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

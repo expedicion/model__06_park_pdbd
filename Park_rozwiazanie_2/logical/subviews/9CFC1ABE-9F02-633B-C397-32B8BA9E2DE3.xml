@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="9CFC1ABE-9F02-633B-C397-32B8BA9E2DE3">
+<createdBy>Użytkownik WEiTI</createdBy>
+<modifiedBy>Użytkownik WEiTI</modifiedBy>
+<createdTime>2018-11-24 09:38:10 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="41AB646B-B7CE-C4E8-69F0-297D22E2BFBE" otype="Entity" vid="A8B06042-D9C3-DD6E-78C6-43B2A63303C8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="77" y="229" width="141" height="116"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="885EA72A-EB18-5A7B-81DF-66846B9DC5D4" otype="Entity" vid="9E9FE11E-D2B6-6571-6233-B200AF4DA686">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="71" y="434" width="150" height="124"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="CD03C36D-774E-F7D0-5C82-9A740AC481EA" otype="Note" vid="33B9FEAC-34EB-06D8-FD81-574423AFA80E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="283" y="434" width="140" height="112"/>
+<comment>W TEJ ENCJI BEDZIE BALAGAN</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E80C4E00-6A55-A340-F5E6-9C6B2FB4F008" otype="Entity" vid="E7F13668-A8C8-AAFE-BF9D-7E228046DA3A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="77" y="52" width="149" height="106"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="EBC81B07-E3DC-ABAF-1BD1-424F83408EFF" otype="Note" vid="1A4E5C28-34D0-DC33-5F5C-6B4179560C90">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="275" y="236" width="183" height="123"/>
+<comment>DO JEDNEGO OBSZARU MOZNA PRZYPISAC WIELE GRUP W ROZNYCH KONFIGURACJACH.&lt;br/&gt;&lt;br/&gt;I - DAB 7 DRZ&lt;br/&gt;II - DAB 3 DRZ&lt;br/&gt;II - DAB 7 DRZ</comment>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="4B9D34DD-341D-9502-31B0-01BEA946C940" otype="Relation" vid_source="E7F13668-A8C8-AAFE-BF9D-7E228046DA3A" vid_target="A8B06042-D9C3-DD6E-78C6-43B2A63303C8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="147" y="158"/>
+<point x="147" y="229"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="762070E6-F085-58EF-931D-AFC2AF15BE76" otype="Relation" vid_source="9E9FE11E-D2B6-6571-6233-B200AF4DA686" vid_target="A8B06042-D9C3-DD6E-78C6-43B2A63303C8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="147" y="434"/>
+<point x="147" y="345"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAA5003F-3299-3634-E122-6F41B5241C1C" name="ROSLINA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 09:20:28 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie</ownerDesignName>
+<engineerTo>
+<item key="0E36F158-2D98-D9DD-C5F3-278364AACD9E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ROSLINY" id="E5CF55B3-5125-A0D4-8D41-0FCC9176024A">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 09:20:38 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie</ownerDesignName>
+<engineerTo>
+<item key="0E36F158-2D98-D9DD-C5F3-278364AACD9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GATUNEK" id="D3EEE7E0-FEFB-A629-8F2D-8822B52DDDDA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 09:21:26 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie</ownerDesignName>
+<engineerTo>
+<item key="0E36F158-2D98-D9DD-C5F3-278364AACD9E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ODMIANA" id="E93564EE-473A-4874-00CA-0A7C433F04CB">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 09:21:36 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie</ownerDesignName>
+<engineerTo>
+<item key="0E36F158-2D98-D9DD-C5F3-278364AACD9E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA" id="AE5B6ECF-A429-1E46-10E6-795E808B68D2">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 09:27:59 UTC</createdTime>
+<generatorID>0F08CA68-72C0-C6EA-1DAD-C67922E485B7</generatorID>
+<ownerDesignName>Park_rozwiazanie</ownerDesignName>
+<engineerTo>
+<item key="0E36F158-2D98-D9DD-C5F3-278364AACD9E" value="true"/>
+</engineerTo>
+<referedAttribute>9D0F265B-1820-284A-3EA3-48D7188D83D8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8E205EB-235B-290A-22B2-9D40D5BDEA07" name="ROSLINA PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 09:20:44 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie</ownerDesignName>
+<engineerTo>
+<item key="0E36F158-2D98-D9DD-C5F3-278364AACD9E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E5CF55B3-5125-A0D4-8D41-0FCC9176024A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

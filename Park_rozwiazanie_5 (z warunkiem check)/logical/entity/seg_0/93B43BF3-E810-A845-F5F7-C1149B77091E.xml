@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93B43BF3-E810-A845-F5F7-C1149B77091E" name="OBSZAR">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:09:48 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<engineerTo>
+<item key="D5665FE7-FB31-43CB-ADB2-0AA83B4CB4E8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="73927092-6E90-7E8D-3B6A-521D259A4553">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:14:16 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<engineerTo>
+<item key="D5665FE7-FB31-43CB-ADB2-0AA83B4CB4E8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B622A3C-FFC1-0BE5-EB52-72A692CA07D0" name="OBSZAR PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:14:22 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<engineerTo>
+<item key="D5665FE7-FB31-43CB-ADB2-0AA83B4CB4E8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>73927092-6E90-7E8D-3B6A-521D259A4553</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

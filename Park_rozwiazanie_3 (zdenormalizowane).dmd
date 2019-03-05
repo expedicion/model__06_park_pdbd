@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Park_rozwiazanie_3 (zdenormalizowane)" id="1A88CD64-DB0A-B242-655F-BB9882F97848" version="3.5">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 09:52:54 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_3 (zdenormalizowane)</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1A88CD64-DB0A-B242-655F-BB9882F97848</designId>
+</OSDM_Design>

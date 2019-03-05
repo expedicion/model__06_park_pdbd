@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41AB646B-B7CE-C4E8-69F0-297D22E2BFBE" name="WYSTEPOWANIE">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 09:38:54 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_2</ownerDesignName>
+<engineerTo>
+<item key="3805DD8C-0109-6C93-D924-DA93801728A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B963F1EF-29D1-BA1C-5A96-A8243B4AB19A">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 09:39:04 UTC</createdTime>
+<generatorID>4B9D34DD-341D-9502-31B0-01BEA946C940</generatorID>
+<ownerDesignName>Park_rozwiazanie_2</ownerDesignName>
+<engineerTo>
+<item key="3805DD8C-0109-6C93-D924-DA93801728A3" value="true"/>
+</engineerTo>
+<referedAttribute>8C230A3A-BEE4-9384-CDDA-8767783E1293</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="3282E98F-F187-0AB2-F9E8-D13FFA572CAB">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 09:39:19 UTC</createdTime>
+<generatorID>762070E6-F085-58EF-931D-AFC2AF15BE76</generatorID>
+<ownerDesignName>Park_rozwiazanie_2</ownerDesignName>
+<engineerTo>
+<item key="3805DD8C-0109-6C93-D924-DA93801728A3" value="true"/>
+</engineerTo>
+<referedAttribute>569F6482-54E6-C17C-FA38-FB8B20D6204A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4DE7D1A3-4BAE-B3D2-560D-D20A36BB0297" name="WYSTEPOWANIE PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 09:39:04 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_2</ownerDesignName>
+<engineerTo>
+<item key="3805DD8C-0109-6C93-D924-DA93801728A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B963F1EF-29D1-BA1C-5A96-A8243B4AB19A</attributeRef>
+<attributeRef>3282E98F-F187-0AB2-F9E8-D13FFA572CAB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

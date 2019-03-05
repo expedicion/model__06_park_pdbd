@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C600FF99-20C7-ECF5-1D76-559E7F8DB1CC" name="WYSTEPOWANIE">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:10:08 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<engineerTo>
+<item key="D5665FE7-FB31-43CB-ADB2-0AA83B4CB4E8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LICZBA" id="BF4EA557-7A0A-7ECF-917B-D439B008F986">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:10:17 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<engineerTo>
+<item key="D5665FE7-FB31-43CB-ADB2-0AA83B4CB4E8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="AFC86B45-4375-BC12-63F0-5A4292231627">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:14:11 UTC</createdTime>
+<generatorID>4FDC6F06-421B-23A7-C8D1-FB442D63D8B0</generatorID>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<engineerTo>
+<item key="D5665FE7-FB31-43CB-ADB2-0AA83B4CB4E8" value="true"/>
+</engineerTo>
+<referedAttribute>92744B83-CA77-0E4C-C980-21BEFBA815BD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="2B8F6962-6F84-F09E-21EF-B8939395E06E">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:14:23 UTC</createdTime>
+<generatorID>788FB805-4134-3884-142E-F4F2EA2A5D31</generatorID>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<engineerTo>
+<item key="D5665FE7-FB31-43CB-ADB2-0AA83B4CB4E8" value="true"/>
+</engineerTo>
+<referedAttribute>73927092-6E90-7E8D-3B6A-521D259A4553</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="971DE2A8-AD9A-60B0-DC30-463BF484872F" name="WYSTEPOWANIE PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 10:14:11 UTC</createdTime>
+<ownerDesignName>Park_rozwiazanie_5 (z warunkiem check)</ownerDesignName>
+<engineerTo>
+<item key="D5665FE7-FB31-43CB-ADB2-0AA83B4CB4E8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AFC86B45-4375-BC12-63F0-5A4292231627</attributeRef>
+<attributeRef>2B8F6962-6F84-F09E-21EF-B8939395E06E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
